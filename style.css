@@ -151,6 +151,68 @@ nav a:hover {
     padding: 4rem 2rem;
 }
 
+.contact-section {
+    padding: 4rem 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+    background: var(--surface-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.form-group input, .form-group textarea {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px var(--glow-color);
+}
+
+.contact-form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px var(--glow-color);
+}
+
 .featured-articles h2 {
     text-align: center;
     font-family: 'Playfair Display', serif;

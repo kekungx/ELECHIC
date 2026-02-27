@@ -13,7 +13,12 @@ const translations = {
         'article2.title': '지속 가능한 테크: 텍스타일의 미래',
         'article2.excerpt': '실험실에서 배양된 가죽부터 재활용 해양 플라스틱까지, 미래를 형성하는 혁신적인 소재들을 살펴봅니다.',
         'article3.title': '사이버 시크: 게임이 스트릿웨어에 미치는 영향',
-        'article3.excerpt': '비디오 게임과 가상 세계의 미학이 어떻게 주류 패션에 스며들고 있는지 분석합니다.'
+        'article3.excerpt': '비디오 게임과 가상 세계의 미학이 어떻게 주류 패션에 스며들고 있는지 분석합니다.',
+        'contact.title': '제휴 문의',
+        'contact.name': '이름/기업명',
+        'contact.email': '이메일 주소',
+        'contact.message': '문의 내용',
+        'contact.submit': '문의 보내기'
     },
     en: {
         'nav.fashion': 'FASHION',
@@ -29,7 +34,12 @@ const translations = {
         'article2.title': 'Sustainable Tech: The Future of Textiles',
         'article2.excerpt': 'From lab-grown leather to recycled ocean plastics, a look at the innovative materials shaping the future.',
         'article3.title': 'Cyber-Chic: The Influence of Gaming on Streetwear',
-        'article3.excerpt': 'How the aesthetics of video games and virtual worlds are bleeding into mainstream fashion.'
+        'article3.excerpt': 'How the aesthetics of video games and virtual worlds are bleeding into mainstream fashion.',
+        'contact.title': 'Partnership Inquiry',
+        'contact.name': 'Name / Company',
+        'contact.email': 'Email Address',
+        'contact.message': 'Your Message',
+        'contact.submit': 'Send Inquiry'
     },
     vi: {
         'nav.fashion': 'THỜI TRANG',
@@ -45,7 +55,12 @@ const translations = {
         'article2.title': 'Công Nghệ Bền Vững: Tương Lai của Dệt May',
         'article2.excerpt': 'Từ da nuôi cấy trong phòng thí nghiệm đến nhựa đại dương tái chế, cái nhìn về các vật liệu sáng tạo định hình tương lai.',
         'article3.title': 'Cyber-Chic: Ảnh Hưởng của Trò Chơi Điện Tử đến Thời Trang Đường Phố',
-        'article3.excerpt': 'Cách thẩm mỹ của video game và thế giới ảo đang len lỏi vào thời trang chủ đạo.'
+        'article3.excerpt': 'Cách thẩm mỹ của video game và thế giới ảo đang len lỏi vào thời trang chủ đạo.',
+        'contact.title': 'Liên Hệ Hợp Tác',
+        'contact.name': 'Tên / Công ty',
+        'contact.email': 'Địa chỉ Email',
+        'contact.message': 'Nội dung tin nhắn',
+        'contact.submit': 'Gửi yêu cầu'
     },
     id: {
         'nav.fashion': 'FASHION',
@@ -61,7 +76,12 @@ const translations = {
         'article2.title': 'Teknologi Berkelanjutan: Masa Depan Tekstil',
         'article2.excerpt': 'Dari kulit buatan lab hingga plastik laut daur ulang, melihat material inovatif yang membentuk masa depan.',
         'article3.title': 'Cyber-Chic: Pengaruh Game pada Streetwear',
-        'article3.excerpt': 'Bagaimana estetika video game dan dunia virtual merambah ke fashion utama.'
+        'article3.excerpt': 'Bagaimana estetika video game dan dunia virtual merambah ke fashion utama.',
+        'contact.title': 'Inkuiri Kemitraan',
+        'contact.name': 'Nama / Perusahaan',
+        'contact.email': 'Alamat Email',
+        'contact.message': 'Pesan Anda',
+        'contact.submit': 'Kirim Inkuiri'
     },
     zh: {
         'nav.fashion': '时尚',

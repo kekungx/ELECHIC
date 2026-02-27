@@ -44,6 +44,25 @@
             <div class="article-grid">
                 </div>
         </section>
+
+        <section class="contact-section">
+            <h2 data-i18n="contact.title">제휴 문의</h2>
+            <form action="https://formspree.io/f/xaqdkybd" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name" data-i18n="contact.name">이름/기업명</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" data-i18n="contact.email">이메일 주소</label>
+                    <input type="email" id="email" name="_replyto" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" data-i18n="contact.message">문의 내용</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" data-i18n="contact.submit">문의 보내기</button>
+            </form>
+        </section>
     </main>
 
     <footer>
