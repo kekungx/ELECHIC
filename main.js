@@ -5,7 +5,7 @@ const translations = {
         'nav.culture': '문화',
         'nav.contact': '제휴 문의',
         'hero.title': 'Small Elephants, Big Change',
-        'hero.desc': '작지만 강한 연결로 세상을 움직이는 기획 그룹, 엘리펀트입니다.',
+        'hero.desc': '작지만 강한 연결로 세상을 움직이는 기획 그룹, 엘리펀트 클라우드입니다.',
         'hero.button': '우리의 여정 보기',
         'about.title': '무리의 여정',
         'about.item1.title': '작은 것들의 힘',
