@@ -1,22 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ELECHIC - 테크와 시크의 만남</title>
+    <title>ELEPHANT - 작은 것들이 만드는 큰 변화</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">ELECHIC</div>
+            <div class="logo">ELEPHANT</div>
             <ul class="nav-links">
-                <li><a href="#" data-i18n="nav.fashion">패션</a></li>
-                <li><a href="#" data-i18n="nav.tech">테크</a></li>
-                <li><a href="#" data-i18n="nav.culture">컬처</a></li>
-                <li><a href="#" data-i18n="nav.subscribe">구독하기</a></li>
+                <li><a href="#about" data-i18n="nav.about">소개</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">프로젝트</a></li>
+                <li><a href="#culture" data-i18n="nav.culture">문화</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">제휴 문의</a></li>
             </ul>
             <div class="controls">
                 <select id="language-select">
@@ -34,18 +33,26 @@
 
     <main>
         <section class="hero">
-            <h1 data-i18n="hero.title">테크와 시크의 만남</h1>
-            <p data-i18n="hero.desc">패션의 미래가 여기에 있습니다. ELECHIC이 전하는 최신 트렌드, 혁신, 그리고 이야기를 만나보세요.</p>
-            <button data-i18n="hero.button">지금 탐색하기</button>
+            <h1 data-i18n="hero.title">Small Elephants, Big Change</h1>
+            <p data-i18n="hero.desc">작지만 강한 연결로 세상을 움직이는 기획 그룹, 엘리펀트입니다.</p>
+            <button data-i18n="hero.button">우리의 여정 보기</button>
         </section>
 
-        <section class="featured-articles">
-            <h2 data-i18n="articles.title">추천 기사</h2>
-            <div class="article-grid">
+        <section id="about" class="about-section">
+            <h2 data-i18n="about.title">무리의 여정</h2>
+            <div class="about-content">
+                <div class="about-item">
+                    <h3 data-i18n="about.item1.title">작은 것들의 힘</h3>
+                    <p data-i18n="about.item1.desc">엘리펀트클라우드는 2020년 10월부터 시작된 무리의 여정입니다. 작은 것들이 모일 때, 비로소 큰 변화가 시작된다고 믿습니다.</p>
                 </div>
+                <div class="about-item">
+                    <h3 data-i18n="about.item2.title">강한 연결</h3>
+                    <p data-i18n="about.item2.desc">디자인, 유통, 기획 전문가들이 모여 혼자가 아닌 함께, 약한 것이 아닌 강한 연결로 새로운 물길을 바꿉니다.</p>
+                </div>
+            </div>
         </section>
 
-        <section class="contact-section">
+        <section id="contact" class="contact-section">
             <h2 data-i18n="contact.title">제휴 문의</h2>
             <form action="https://formspree.io/f/xaqdkybd" method="POST" class="contact-form">
                 <div class="form-group">
@@ -66,7 +73,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 ELECHIC. All rights reserved.</p>
+        <p>&copy; 2024 ELEPHANT Cloud. All rights reserved.</p>
     </footer>
 </body>
 </html>
